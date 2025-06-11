@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #121212;
+    color: #f8f9fa;
+    overflow-x: hidden;
+    font-family:  "Outfit", sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.navbar {
+    background-color: black;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.navbar-nav.nav-link.active {
+    color: rgb(0, 0, 0);
+}
+
+.nav-link {
+    text-align: center;
+    color: #ff444459;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: #ff444459;
+    border-radius: 4px;
+}
+
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#sobre-calamity {
+    padding: 50px 0;
+    background-color: #161616;
+}
+
+.card {
+    min-height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #0f0f0f49;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.2);
+}
+
+.card-body {
+    & h5 {
+        color: rgba(255, 255, 255, 0.90)
+    }
+    & p {
+        color: rgba(255, 255, 255, 0.50);
+    }
+}
+
+.card img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+    .banner-responsivo {
+        background-image: url('banner/rockstargames-website-wide-gtavi-banner-mobile.png');
+        max-height: 10rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .banner-responsivo {
+        background-image: url('banner/rockstargames-website-wide-gtavi-banner-tablete.png');
+        max-height: 18rem;
+    }
+}

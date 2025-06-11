@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Teste</title>
+  <link rel="stylesheet" href="./Lib/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="navbar navbar-expand-lg  navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">CALAMITY</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Extras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Addons</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <!-- Carousel -->
+  <section id="home">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./picture/download.jpg" alt="Slide 0" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./picture/infernum.jpg" alt="Slide 1" class="d-block w-100">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  </section>
+
+  <section id="sobre-calamity">
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="section-title mb-4">Sobre Calamity</h2>
+        <p>
+          O Calamity Mod é uma das maiores e mais populares expansões já criadas para Terraria. Ele transforma completamente a experiência do jogo, adicionando chefes épicos, novas armas e biomas, sistemas de dificuldade únicos, NPCs exclusivos e até uma nova classe: o Rogue. Com uma trilha sonora própria e uma comunidade ativa, Calamity oferece um desafio intenso e profundo para jogadores que buscam levar Terraria ao próximo nível.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <div class="ratio ratio-16x9">
+          <iframe 
+            src="https://www.youtube.com/embed/HsTnG9Mwns0" 
+            title="Calamity Mod"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            class="rounded">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Cards -->
+  <section id="cards">
+    <div class="container my-5">
+        <h2 class="section-title text-center mb-5">Extras</h2>
+        <div class="row justify-content-center g-4">
+            
+      <div class="col-md-6 col-lg-4">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="./picture/TheDevourOfGods.png" alt="card image">
+          <div class="card-body">
+            <h5 class="card-title">Bosses</h5>
+            <p class="card-text">O Calamity Mod adiciona dezenas de bosses únicos e desafiadores, como o temido Supreme Calamitas e o colossal Devourer of Gods. Cada batalha traz novas mecânicas, músicas épicas e uma experiência intensa para os jogadores mais corajosos.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="./picture/Murasamav2.png" alt="card image">
+          <div class="card-body">
+            <h5 class="card-title">Armas</h5>
+            <p class="card-text">Com centenas de novas armas, o Calamity Mod transforma completamente o combate no Terraria. De espadas gigantescas a lasers devastadores, cada classe ganha opções únicas e poderosas para enfrentar os desafios do mod com estilo.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="./picture/rogue.png" alt="card image">
+          <div class="card-body">
+            <h5 class="card-title">Nova Classe</h5>
+            <p class="card-text">O Calamity Mod introduz a classe Rogue, focada em ataques furtivos e armas arremessáveis. Com mecânicas exclusivas como stealth, a Rogue recompensa precisão e paciência, oferecendo uma jogabilidade ágil e estratégica para quem busca algo diferente das classes tradicionais.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="./picture/npc.png" alt="card image">
+          <div class="card-body">
+            <h5 class="card-title">Npcs</h5>
+            <p class="card-text">O Calamity Mod adiciona diversos NPCs únicos que expandem a jogabilidade, como o Bandit e o Drunk Princess. Eles oferecem novas lojas, diálogos e utilidades, trazendo mais vida, humor e opções ao mundo do Terraria.
+
+</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="./picture/biome.png" alt="card image">
+          <div class="card-body">
+            <h5 class="card-title">Biomas</h5>
+            <p class="card-text">O Calamity Mod introduz biomas inéditos e atmosféricos, como o misterioso Abyss e a sombria Sulphurous Sea. Esses ambientes trazem novos inimigos, recursos exclusivos e trilhas sonoras imersivas, elevando a exploração a outro nível.</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  </section>
+
+  <script src="./Lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
